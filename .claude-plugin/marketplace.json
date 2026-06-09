@@ -1,0 +1,123 @@
+{
+  "name": "claude-skills",
+  "description": "Claude Code skills for common development tasks: engineering discipline, testing, code quality, documentation, tooling, and content analysis. Install everything via all-skills or pick individual skills.",
+  "owner": {
+    "name": "David Murray"
+  },
+  "plugins": [
+    {
+      "name": "all-skills",
+      "source": "./",
+      "description": "The full collection — all 18 skills in one install",
+      "category": "bundle"
+    },
+    {
+      "name": "commit-hygiene",
+      "source": "./skills/commit-hygiene",
+      "description": "Enforce commit size thresholds and conventional commit messages to reduce defect rates",
+      "category": "engineering-discipline"
+    },
+    {
+      "name": "test-driven-development",
+      "source": "./skills/test-driven-development",
+      "description": "Enforce strict RED-GREEN-REFACTOR TDD discipline before writing production code",
+      "category": "engineering-discipline"
+    },
+    {
+      "name": "precommit-validation",
+      "source": "./skills/precommit-validation",
+      "description": "Pre-commit security and quality validation",
+      "category": "engineering-discipline"
+    },
+    {
+      "name": "test-runner",
+      "source": "./skills/test-runner",
+      "description": "Run tests, generate scaffolds, manage coverage with framework auto-detection",
+      "category": "testing"
+    },
+    {
+      "name": "prd-to-criteria",
+      "source": "./skills/prd-to-criteria",
+      "description": "Transform PRD acceptance criteria into machine-verifiable completion checks",
+      "category": "testing"
+    },
+    {
+      "name": "code-review",
+      "source": "./skills/code-review",
+      "description": "Code review covering security, performance, quality, and correctness",
+      "category": "code-quality"
+    },
+    {
+      "name": "diagnose",
+      "source": "./skills/diagnose",
+      "description": "Disciplined six-phase debugging loop for hard bugs and performance regressions",
+      "category": "code-quality"
+    },
+    {
+      "name": "dev-docs",
+      "source": "./skills/dev-docs",
+      "description": "Generate README, API docs, ADRs, and inline documentation",
+      "category": "documentation"
+    },
+    {
+      "name": "make-interfaces-feel-better",
+      "source": "./skills/make-interfaces-feel-better",
+      "description": "UI polish: animations, typography, surfaces, micro-interactions",
+      "category": "documentation"
+    },
+    {
+      "name": "mcp-server-scaffold",
+      "source": "./skills/mcp-server-scaffold",
+      "description": "Scaffold production-ready MCP servers with TypeScript/Python templates",
+      "category": "tooling"
+    },
+    {
+      "name": "skill-creator",
+      "source": "./skills/skill-creator",
+      "description": "Guide for creating and structuring new Claude Code skills",
+      "category": "tooling"
+    },
+    {
+      "name": "prompt-engineering",
+      "source": "./skills/prompt-engineering",
+      "description": "Prompt engineering patterns for LLM agents and hooks",
+      "category": "tooling"
+    },
+    {
+      "name": "link-ingest",
+      "source": "./skills/link-ingest",
+      "description": "Ingest any URL into a knowledge base with scraping, Obsidian notes, and optional ChromaDB",
+      "category": "tooling"
+    },
+    {
+      "name": "file-organizer",
+      "source": "./skills/file-organizer",
+      "description": "Organize files, find duplicates, suggest better structures",
+      "category": "tooling"
+    },
+    {
+      "name": "csv-summarizer",
+      "source": "./skills/csv-summarizer",
+      "description": "Analyze CSV files and generate statistical summaries with charts",
+      "category": "content-analysis"
+    },
+    {
+      "name": "image-enhancer",
+      "source": "./skills/image-enhancer",
+      "description": "Batch image enhancement with ImageMagick and platform presets",
+      "category": "content-analysis"
+    },
+    {
+      "name": "changelog-generator",
+      "source": "./skills/changelog-generator",
+      "description": "Generate release notes from git history",
+      "category": "content-analysis"
+    },
+    {
+      "name": "article-extractor",
+      "source": "./skills/article-extractor",
+      "description": "Extract clean article content with a 4-backend fallback chain",
+      "category": "content-analysis"
+    }
+  ]
+}

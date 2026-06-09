@@ -1,0 +1,12 @@
+{
+  "name": "all-skills",
+  "displayName": "Claude Skills (full collection)",
+  "version": "1.0.0",
+  "description": "All 18 skills from thedavidmurray/claude-skills: engineering discipline, testing, code quality, documentation, tooling, and content analysis.",
+  "author": {
+    "name": "David Murray"
+  },
+  "repository": "https://github.com/thedavidmurray/claude-skills",
+  "license": "MIT",
+  "keywords": ["skills", "agent-skills", "development", "testing", "code-quality"]
+}

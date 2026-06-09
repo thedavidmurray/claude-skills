@@ -1,0 +1,10 @@
+{
+  "name": "prd-to-criteria",
+  "version": "1.0.0",
+  "description": "Transform PRD acceptance criteria into machine-verifiable completion checks",
+  "author": {
+    "name": "David Murray"
+  },
+  "repository": "https://github.com/thedavidmurray/claude-skills",
+  "license": "MIT"
+}

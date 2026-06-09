@@ -1,0 +1,10 @@
+{
+  "name": "test-runner",
+  "version": "1.0.0",
+  "description": "Run tests, generate scaffolds, manage coverage with framework auto-detection",
+  "author": {
+    "name": "David Murray"
+  },
+  "repository": "https://github.com/thedavidmurray/claude-skills",
+  "license": "MIT"
+}
