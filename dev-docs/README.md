@@ -9,14 +9,14 @@ A Claude Code skill for generating development documentation with consistent for
 
 ```bash
 mkdir -p .claude/skills/dev-docs
-cp -r dev-docs/ .claude/skills/dev-docs/
+mkdir -p .claude/skills && cp -r dev-docs .claude/skills/
 ```
 
 Then reference it in your `CLAUDE.md`:
 
 ```markdown
 ## Skills
-- `.claude/skills/dev-docs/skill.md` - Documentation generation
+- `.claude/skills/dev-docs/SKILL.md` - Documentation generation
 ```
 
 ## Usage

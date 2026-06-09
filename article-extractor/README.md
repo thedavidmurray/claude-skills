@@ -32,19 +32,19 @@ produces no content:
 
 ### 1. Install the skill
 
-Copy `skill.md` into your Claude Code skills directory:
+Copy `SKILL.md` into your Claude Code skills directory:
 
 ```bash
 # Claude Code user-level skills directory
 mkdir -p ~/.claude/skills/article-extractor
-cp skill.md ~/.claude/skills/article-extractor/skill.md
+cp SKILL.md ~/.claude/skills/article-extractor/SKILL.md
 ```
 
 Or add it to a project-level skills directory:
 
 ```bash
 mkdir -p .claude/skills/article-extractor
-cp skill.md .claude/skills/article-extractor/skill.md
+cp SKILL.md .claude/skills/article-extractor/SKILL.md
 ```
 
 Claude Code discovers skills automatically from these locations.

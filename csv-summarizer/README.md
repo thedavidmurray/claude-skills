@@ -51,15 +51,15 @@ Minimum versions: `pandas>=2.0.0`, `matplotlib>=3.7.0`, `seaborn>=0.12.0`
 
 ### 2. Add the skill to Claude Code
 
-Copy `skill.md` into your project's skills directory:
+Copy `SKILL.md` into your project's skills directory:
 
 ```bash
 # From the repo root
 mkdir -p .claude/skills/csv-data-summarizer
-cp skill.md .claude/skills/csv-data-summarizer/skill.md
+cp SKILL.md .claude/skills/csv-data-summarizer/SKILL.md
 ```
 
-Claude Code automatically loads `.claude/skills/*/skill.md` files in each
+Claude Code automatically loads `.claude/skills/*/SKILL.md` files in each
 session. No further configuration is required.
 
 ### 3. Use it

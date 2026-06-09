@@ -9,7 +9,7 @@ A Claude Code skill that applies a disciplined, phased approach to debugging har
 
 ```bash
 mkdir -p .claude/skills/diagnose
-cp -r diagnose/ .claude/skills/diagnose/
+mkdir -p .claude/skills && cp -r diagnose .claude/skills/
 ```
 
 Then reference it in your `CLAUDE.md`:

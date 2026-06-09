@@ -1,6 +1,6 @@
 ---
 name: prompt-engineering
-description: Use this skill when writing commands, hooks, skills for Agent, or prompts for sub-agents or any other LLM interaction, including optimizing prompts, improving LLM outputs, or designing production prompt templates.
+description: Use this skill when writing commands, hooks, skills for Agent, or prompts for sub-agents or any other LLM interaction, including optimizing prompts, improving LLM outputs, or designing production prompt templates. Triggers on "write a system prompt", "optimize this prompt", "improve my prompt", "design a prompt template", "why is the model ignoring my instructions", "few-shot examples", "chain of thought".
 metadata:
   tags:
   - prompt-engineering

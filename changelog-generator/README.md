@@ -63,11 +63,11 @@ samples including breaking changes, JSON format, and HTML format.
 
 ### Option A — Single project
 
-Copy `skill.md` into your project's skill directory:
+Copy `SKILL.md` into your project's skill directory:
 
 ```bash
 mkdir -p .claude/skills/changelog-generator
-cp skill.md .claude/skills/changelog-generator/skill.md
+cp SKILL.md .claude/skills/changelog-generator/SKILL.md
 ```
 
 ### Option B — Global (all projects)
@@ -76,7 +76,7 @@ Copy to your global Claude skills directory:
 
 ```bash
 mkdir -p ~/.claude/skills/changelog-generator
-cp skill.md ~/.claude/skills/changelog-generator/skill.md
+cp SKILL.md ~/.claude/skills/changelog-generator/SKILL.md
 ```
 
 Claude Code automatically discovers skill files in `.claude/skills/` (project-level)

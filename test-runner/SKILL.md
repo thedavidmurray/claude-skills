@@ -130,13 +130,15 @@ When `/test generate <file>` is invoked:
 
 ### Step 1: Analyze Source File
 ```
-Use zen-mcp testgen tool:
+If the optional zen-mcp-server is configured, use its testgen tool:
 mcp__zen__testgen(
     step="Analyzing source file for test generation",
     relevant_files=[target_file],
     model="o3",
     thinking_mode="medium"
 )
+Otherwise, read the source file directly and analyze its exports,
+branches, and error paths yourself before writing the test file.
 ```
 
 ### Step 2: Identify Test Cases

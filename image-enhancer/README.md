@@ -60,14 +60,14 @@ sudo apt install parallel  # Ubuntu
 
 1. Clone or download this repository.
 
-2. Copy `skill.md` into your Claude Code skills directory:
+2. Copy `SKILL.md` into your Claude Code skills directory:
 
 ```bash
 # Create the skill directory if needed
 mkdir -p ~/.claude/skills/image-enhancer
 
 # Copy the skill file
-cp skill.md ~/.claude/skills/image-enhancer/skill.md
+cp SKILL.md ~/.claude/skills/image-enhancer/SKILL.md
 ```
 
 3. Reload Claude Code (or start a new session). The skill is auto-loaded from the skills directory.

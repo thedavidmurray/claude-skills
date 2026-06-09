@@ -9,14 +9,14 @@ A Claude Code skill with design engineering principles for making interfaces fee
 
 ```bash
 mkdir -p .claude/skills/make-interfaces-feel-better
-cp -r make-interfaces-feel-better/ .claude/skills/make-interfaces-feel-better/
+mkdir -p .claude/skills && cp -r make-interfaces-feel-better .claude/skills/
 ```
 
 Then reference it in your `CLAUDE.md`:
 
 ```markdown
 ## Skills
-- `.claude/skills/make-interfaces-feel-better/skill.md` - UI polish principles
+- `.claude/skills/make-interfaces-feel-better/SKILL.md` - UI polish principles
 ```
 
 ## Usage
@@ -44,7 +44,7 @@ This interface needs more refinement
 
 | File | Purpose |
 |------|---------|
-| `skill.md` | Core principles and review checklist |
+| `SKILL.md` | Core principles and review checklist |
 | `typography.md` | Text wrapping, font smoothing, tabular numbers |
 | `surfaces.md` | Border radius, shadows, outlines, hit areas |
 | `animations.md` | Enter/exit transitions, icon animations, scale on press |

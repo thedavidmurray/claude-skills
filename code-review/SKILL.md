@@ -78,9 +78,8 @@ Comprehensive code review using zen-mcp's codereview tool.
 
 ## Implementation
 
-Uses zen-mcp codereview tool in 3 steps:
 1. **Identify Scope** - Determine files to review
-2. **Run Code Review** - Use `mcp__zen__codereview` with specified review type
+2. **Run Code Review** - Use `mcp__zen__codereview` with the specified review type if the optional [zen-mcp-server](https://github.com/BeehiveInnovations/zen-mcp-server) is configured; otherwise read the files directly and review them against each dimension in the table above
 3. **Deep Analysis** - Pattern detection and security analysis
 4. **Synthesis** - Final recommendations and action items
 
@@ -105,9 +104,9 @@ Action Items: [prioritized fixes]
 
 ## Related Skills
 
-- `/precommit` - Pre-commit validation (before committing)
-- `/learn` - Save patterns discovered during review
-- `/test` - Run tests after fixes
+- `precommit-validation` - Pre-commit validation (before committing)
+- `test-runner` - Run tests after fixes
+- `diagnose` - Debug issues found during review
 
 ## Command Reference
 

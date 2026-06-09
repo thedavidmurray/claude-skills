@@ -37,8 +37,8 @@ echo ""
 # Create directory structure
 mkdir -p "$SKILL_PATH"/{scripts,references,assets}
 
-# Create skill.md template
-cat > "$SKILL_PATH/skill.md" << 'EOF'
+# Create SKILL.md template
+cat > "$SKILL_PATH/SKILL.md" << 'EOF'
 ---
 name: SKILL_NAME_PLACEHOLDER
 description: >
@@ -98,10 +98,10 @@ TODO: Describe the step
 - `TODO` - Related skill description
 EOF
 
-# Replace placeholders
-sed -i '' "s/SKILL_NAME_PLACEHOLDER/$SKILL_NAME/g" "$SKILL_PATH/skill.md"
+# Replace placeholders (portable across GNU and BSD sed)
 SKILL_TITLE=$(echo "$SKILL_NAME" | sed 's/-/ /g' | awk '{for(i=1;i<=NF;i++) $i=toupper(substr($i,1,1)) tolower(substr($i,2))}1')
-sed -i '' "s/SKILL_TITLE_PLACEHOLDER/$SKILL_TITLE/g" "$SKILL_PATH/skill.md"
+sed "s/SKILL_NAME_PLACEHOLDER/$SKILL_NAME/g; s/SKILL_TITLE_PLACEHOLDER/$SKILL_TITLE/g" "$SKILL_PATH/SKILL.md" > "$SKILL_PATH/SKILL.md.tmp" \
+    && mv "$SKILL_PATH/SKILL.md.tmp" "$SKILL_PATH/SKILL.md"
 
 # Create placeholder files in each directory
 echo "# Scripts" > "$SKILL_PATH/scripts/README.md"
@@ -125,7 +125,7 @@ echo ""
 echo "Skill '$SKILL_NAME' created successfully!"
 echo ""
 echo "Next steps:"
-echo "1. Edit $SKILL_PATH/skill.md"
+echo "1. Edit $SKILL_PATH/SKILL.md"
 echo "   - Update the description in frontmatter"
 echo "   - Fill in the TODO sections"
 echo "   - Add your workflow and examples"

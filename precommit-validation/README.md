@@ -9,14 +9,14 @@ A Claude Code skill for comprehensive pre-commit validation covering security vu
 
 ```bash
 mkdir -p .claude/skills/precommit-validation
-cp -r precommit-validation/ .claude/skills/precommit-validation/
+mkdir -p .claude/skills && cp -r precommit-validation .claude/skills/
 ```
 
 Then reference it in your `CLAUDE.md`:
 
 ```markdown
 ## Skills
-- `.claude/skills/precommit-validation/skill.md` - Pre-commit security and quality checks
+- `.claude/skills/precommit-validation/SKILL.md` - Pre-commit security and quality checks
 ```
 
 ## Usage

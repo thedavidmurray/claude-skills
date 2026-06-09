@@ -9,14 +9,14 @@ A Claude Code skill for comprehensive code review covering security, performance
 
 ```bash
 mkdir -p .claude/skills/code-review
-cp -r code-review/ .claude/skills/code-review/
+mkdir -p .claude/skills && cp -r code-review .claude/skills/
 ```
 
 Then reference it in your `CLAUDE.md`:
 
 ```markdown
 ## Skills
-- `.claude/skills/code-review/skill.md` - Proactive code review
+- `.claude/skills/code-review/SKILL.md` - Proactive code review
 ```
 
 ## Usage

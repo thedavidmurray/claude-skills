@@ -1,24 +1,21 @@
 ---
-name: csv-data-summarizer
-title: CSV Data Summarizer
+name: csv-summarizer
 description: >
   Analyzes any CSV file and immediately produces a full report: column-type
   detection, summary statistics, missing-value audit, and matplotlib/seaborn
-  visualizations — all in one shot, no follow-up questions.
+  visualizations — all in one shot, no follow-up questions. Use when the user
+  references a .csv file or asks to "summarize", "analyze", "explore", or
+  "visualize" tabular data.
+metadata:
+  tags: [csv, data-analysis, pandas, matplotlib, seaborn, statistics, visualization]
+  tier: task-specific
+  domain: ingestion
 version: 2.2.0
 dependencies:
   - python 3.8+
   - pandas 2.0.0+
   - matplotlib 3.7.0+
   - seaborn 0.12.0+
-tags:
-  - csv
-  - data-analysis
-  - pandas
-  - matplotlib
-  - seaborn
-  - statistics
-  - visualization
 ---
 
 # CSV Data Summarizer

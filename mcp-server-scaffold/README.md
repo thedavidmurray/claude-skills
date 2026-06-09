@@ -9,14 +9,14 @@ A Claude Code skill for scaffolding production-ready MCP (Model Context Protocol
 
 ```bash
 mkdir -p .claude/skills/mcp-server-scaffold
-cp -r mcp-server-scaffold/ .claude/skills/mcp-server-scaffold/
+mkdir -p .claude/skills && cp -r mcp-server-scaffold .claude/skills/
 ```
 
 Then reference it in your `CLAUDE.md`:
 
 ```markdown
 ## Skills
-- `.claude/skills/mcp-server-scaffold/skill.md` - MCP server scaffolding
+- `.claude/skills/mcp-server-scaffold/SKILL.md` - MCP server scaffolding
 ```
 
 ## Usage
@@ -40,7 +40,7 @@ For a stdio TypeScript server named `weather-mcp`:
 
 | File | Purpose |
 |------|---------|
-| `skill.md` | Main skill definition with scaffold workflow |
+| `SKILL.md` | Main skill definition with scaffold workflow |
 | `templates/typescript/template-server-stdio.ts` | TypeScript stdio server template |
 | `templates/typescript/template-server-http.ts` | TypeScript HTTP/SSE server template |
 | `templates/typescript/template-tool.ts` | Tool handler with Zod schema |

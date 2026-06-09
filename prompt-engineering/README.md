@@ -9,14 +9,14 @@ A Claude Code skill with advanced prompt engineering patterns for maximizing LLM
 
 ```bash
 mkdir -p .claude/skills/prompt-engineering
-cp -r prompt-engineering/ .claude/skills/prompt-engineering/
+mkdir -p .claude/skills && cp -r prompt-engineering .claude/skills/
 ```
 
 Then reference it in your `CLAUDE.md`:
 
 ```markdown
 ## Skills
-- `.claude/skills/prompt-engineering/skill.md` - Prompt engineering patterns
+- `.claude/skills/prompt-engineering/SKILL.md` - Prompt engineering patterns
 ```
 
 ## Usage
@@ -46,7 +46,7 @@ Only add context Claude doesn't already have. The context window is a shared res
 
 | File | Purpose |
 |------|---------|
-| `skill.md` | Main patterns and principles |
+| `SKILL.md` | Main patterns and principles |
 | `references/persuasion-principles.md` | Persuasion techniques for agent compliance |
 
 ## Links

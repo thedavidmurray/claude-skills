@@ -9,14 +9,14 @@ A Claude Code skill for ingesting any web URL into a knowledge base. It auto-det
 
 ```bash
 mkdir -p .claude/skills/link-ingest
-cp -r link-ingest/ .claude/skills/link-ingest/
+mkdir -p .claude/skills && cp -r link-ingest .claude/skills/
 ```
 
 Then reference it in your `CLAUDE.md`:
 
 ```markdown
 ## Skills
-- `.claude/skills/link-ingest/skill.md` - URL ingestion to knowledge base
+- `.claude/skills/link-ingest/SKILL.md` - URL ingestion to knowledge base
 ```
 
 ## Usage

@@ -9,14 +9,14 @@ A Claude Code skill for running tests, generating test scaffolds, and managing t
 
 ```bash
 mkdir -p .claude/skills/test-runner
-cp -r test-runner/ .claude/skills/test-runner/
+mkdir -p .claude/skills && cp -r test-runner .claude/skills/
 ```
 
 Then reference it in your `CLAUDE.md`:
 
 ```markdown
 ## Skills
-- `.claude/skills/test-runner/skill.md` - Test running and scaffold generation
+- `.claude/skills/test-runner/SKILL.md` - Test running and scaffold generation
 ```
 
 ## Usage

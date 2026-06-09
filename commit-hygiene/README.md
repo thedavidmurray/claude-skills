@@ -10,14 +10,14 @@ A Claude Code skill that enforces evidence-based commit size thresholds and conv
 ```bash
 # Copy the skill to your project
 mkdir -p .claude/skills/commit-hygiene
-cp -r commit-hygiene/ .claude/skills/commit-hygiene/
+mkdir -p .claude/skills && cp -r commit-hygiene .claude/skills/
 ```
 
 Then reference it in your `CLAUDE.md`:
 
 ```markdown
 ## Skills
-- `.claude/skills/commit-hygiene/skill.md` - Commit size and message validation
+- `.claude/skills/commit-hygiene/SKILL.md` - Commit size and message validation
 ```
 
 Claude Code automatically discovers skills in `.claude/skills/`.

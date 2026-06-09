@@ -9,14 +9,14 @@ A Claude Code skill for intelligently organizing files and folders. It analyzes 
 
 ```bash
 mkdir -p .claude/skills/file-organizer
-cp -r file-organizer/ .claude/skills/file-organizer/
+mkdir -p .claude/skills && cp -r file-organizer .claude/skills/
 ```
 
 Then reference it in your `CLAUDE.md`:
 
 ```markdown
 ## Skills
-- `.claude/skills/file-organizer/skill.md` - Intelligent file organization
+- `.claude/skills/file-organizer/SKILL.md` - Intelligent file organization
 ```
 
 ## Usage

@@ -9,14 +9,14 @@ A Claude Code skill that transforms Product Requirement Document acceptance crit
 
 ```bash
 mkdir -p .claude/skills/prd-to-criteria
-cp -r prd-to-criteria/ .claude/skills/prd-to-criteria/
+mkdir -p .claude/skills && cp -r prd-to-criteria .claude/skills/
 ```
 
 Then reference it in your `CLAUDE.md`:
 
 ```markdown
 ## Skills
-- `.claude/skills/prd-to-criteria/skill.md` - PRD to verification criteria
+- `.claude/skills/prd-to-criteria/SKILL.md` - PRD to verification criteria
 ```
 
 ## Usage

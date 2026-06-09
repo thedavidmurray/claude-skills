@@ -37,6 +37,8 @@ Generate development documentation for code, APIs, and systems with consistent f
 
 ## Tools Used
 
+> **Note:** The `mcp__zen__*` tools below require the optional [zen-mcp-server](https://github.com/BeehiveInnovations/zen-mcp-server) to be configured. If it is not available, skip this section and generate documentation directly using the templates below — read the code with Read/Grep and write the docs yourself.
+
 ### Primary: zen-mcp docgen
 ```
 mcp__zen__docgen(
@@ -214,5 +216,5 @@ Documentation can be linked to vault:
 5. **Version docs** - Match code versions
 
 ## Related Skills
-- `capture-state` - Capture context for docs
-- `research-deep` - Research documentation patterns
+- `changelog-generator` - Generate release notes from git history
+- `code-review` - Review code before documenting it

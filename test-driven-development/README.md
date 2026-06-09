@@ -9,14 +9,14 @@ A Claude Code skill that enforces strict test-driven development discipline. It 
 
 ```bash
 mkdir -p .claude/skills/test-driven-development
-cp -r test-driven-development/ .claude/skills/test-driven-development/
+mkdir -p .claude/skills && cp -r test-driven-development .claude/skills/
 ```
 
 Then reference it in your `CLAUDE.md`:
 
 ```markdown
 ## Skills
-- `.claude/skills/test-driven-development/skill.md` - TDD enforcement
+- `.claude/skills/test-driven-development/SKILL.md` - TDD enforcement
 ```
 
 ## Usage
@@ -46,7 +46,7 @@ The skill verifies that:
 
 | File | Purpose |
 |------|---------|
-| `skill.md` | Main skill definition with TDD workflow |
+| `SKILL.md` | Main skill definition with TDD workflow |
 | `references/testing-anti-patterns.md` | Common testing mistakes to avoid |
 | `references/quick-reference.md` | TDD cycle cheat sheet |
 | `assets/tdd-cycle.txt` | ASCII cycle diagram |

@@ -9,14 +9,14 @@ A Claude Code skill for creating and updating Claude Code skills. It guides you 
 
 ```bash
 mkdir -p .claude/skills/skill-creator
-cp -r skill-creator/ .claude/skills/skill-creator/
+mkdir -p .claude/skills && cp -r skill-creator .claude/skills/
 ```
 
 Then reference it in your `CLAUDE.md`:
 
 ```markdown
 ## Skills
-- `.claude/skills/skill-creator/skill.md` - Skill creation guide
+- `.claude/skills/skill-creator/SKILL.md` - Skill creation guide
 ```
 
 ## Usage
@@ -41,7 +41,7 @@ Then reference it in your `CLAUDE.md`:
 
 | File | Purpose |
 |------|---------|
-| `skill.md` | Main skill definition with creation workflow |
+| `SKILL.md` | Main skill definition with creation workflow |
 | `scripts/init_skill.sh` | Scaffolds a new skill directory with template |
 | `references/category-templates.md` | Starter templates for each skill category |
 | `references/pattern-examples.md` | Detailed examples of the five workflow patterns |

@@ -16,6 +16,8 @@ when_to_apply: Before any git commit or push to catch security issues and code q
 
 Pre-commit validation using zen-mcp's precommit and security audit tools.
 
+> **Note:** Steps 2–4 use the optional [zen-mcp-server](https://github.com/BeehiveInnovations/zen-mcp-server). If it is not configured, perform the same analysis natively: review `git diff --cached` directly, check each item in the checklist below by reading the changed files, and report findings in the output format shown.
+
 ## When to Activate
 
 **PROACTIVE TRIGGERS** - Use automatically when:
@@ -124,10 +126,9 @@ ISSUES FOUND - Address before committing
 
 ## Related Skills
 
-- `/review` - Deep code review (post-implementation)
-- `/learn` - Save important patterns discovered
-- `/test` - Run tests before commit
-- `mcp__zen__secaudit` - Full security audit
+- `code-review` - Deep code review (post-implementation)
+- `test-runner` - Run tests before commit
+- `commit-hygiene` - Validate commit size and message format
 
 ## Command Reference
 
