@@ -110,6 +110,10 @@ This skill includes style guides and templates in `assets/`:
 - Assets: `assets/logo-kit/`, `assets/brand-colors.css`, `assets/typography.json`
 - Quality Check: Logo clearspace, color accuracy, font licensing
 
+**`document-generator` skill:**
+- WHAT: Create formatted reports from structured data
+- WHEN: User asks to generate a report or formatted document
+
 ---
 
 ## Category 2: Workflow Automation
@@ -233,6 +237,11 @@ This workflow maintains state across phases:
 - WHEN: New hire starts
 - Phases: Accounts → Access → Equipment → Orientation
 - Validation: Each phase has completion criteria
+
+**`deploy-pipeline` skill:**
+- WHAT: Run release validation sequence
+- WHEN: User triggers a deployment or release
+- Validation: Gates between build, test, stage, and production phases
 
 ---
 
@@ -362,6 +371,12 @@ Confirm success:
 - WHEN: Triage pipeline runs
 - MCP: Linear
 - Workflow: Auth → Transform → Create/Update → Verify
+
+**`notion-sync` skill:**
+- WHAT: Bidirectional data sync with Notion
+- WHEN: User asks to sync data to or from Notion
+- MCP: Notion
+- Workflow: Auth → Diff both sides → Apply changes → Verify
 
 ---
 
