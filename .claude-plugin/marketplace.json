@@ -1,6 +1,6 @@
 {
   "name": "claude-skills",
-  "description": "Claude Code skills for common development tasks: engineering discipline, testing, code quality, documentation, tooling, and content analysis. Install everything via all-skills or pick individual skills.",
+  "description": "Claude Code skills for development tasks and Claude extension authoring: engineering discipline, testing, code quality, documentation, tooling, and content analysis. Install everything via all-skills or pick individual skills.",
   "owner": {
     "name": "David Murray"
   },
@@ -8,7 +8,7 @@
     {
       "name": "all-skills",
       "source": "./",
-      "description": "The full collection — all 18 skills in one install",
+      "description": "The full collection \u2014 all 25 skills in one install",
       "category": "bundle"
     },
     {
@@ -69,19 +69,19 @@
       "name": "mcp-server-scaffold",
       "source": "./skills/mcp-server-scaffold",
       "description": "Scaffold production-ready MCP servers with TypeScript/Python templates",
-      "category": "tooling"
+      "category": "claude-extensions"
     },
     {
       "name": "skill-creator",
       "source": "./skills/skill-creator",
       "description": "Guide for creating and structuring new Claude Code skills",
-      "category": "tooling"
+      "category": "claude-extensions"
     },
     {
       "name": "prompt-engineering",
       "source": "./skills/prompt-engineering",
       "description": "Prompt engineering patterns for LLM agents and hooks",
-      "category": "tooling"
+      "category": "claude-extensions"
     },
     {
       "name": "link-ingest",
@@ -118,6 +118,48 @@
       "source": "./skills/article-extractor",
       "description": "Extract clean article content with a 4-backend fallback chain",
       "category": "content-analysis"
+    },
+    {
+      "name": "claude-md-author",
+      "source": "./skills/claude-md-author",
+      "description": "Write and audit CLAUDE.md memory files Claude actually follows",
+      "category": "claude-extensions"
+    },
+    {
+      "name": "hook-creator",
+      "source": "./skills/hook-creator",
+      "description": "Create and debug Claude Code hooks that enforce rules deterministically",
+      "category": "claude-extensions"
+    },
+    {
+      "name": "subagent-creator",
+      "source": "./skills/subagent-creator",
+      "description": "Create custom Claude Code subagents with scoped tools and prompts",
+      "category": "claude-extensions"
+    },
+    {
+      "name": "refactor-safely",
+      "source": "./skills/refactor-safely",
+      "description": "Behavior-preserving refactoring under a test safety net, in small reversible steps",
+      "category": "engineering-discipline"
+    },
+    {
+      "name": "git-rescue",
+      "source": "./skills/git-rescue",
+      "description": "Recover lost commits, undo bad rebases/merges, and hunt regressions with bisect",
+      "category": "engineering-discipline"
+    },
+    {
+      "name": "a11y-review",
+      "source": "./skills/a11y-review",
+      "description": "Accessibility review for web UIs against checkable WCAG 2.2 AA rules",
+      "category": "documentation"
+    },
+    {
+      "name": "dependency-upgrade",
+      "source": "./skills/dependency-upgrade",
+      "description": "Safe, ordered dependency upgrades across npm, pip, and cargo",
+      "category": "tooling"
     }
   ]
 }

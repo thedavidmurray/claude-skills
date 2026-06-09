@@ -1,0 +1,10 @@
+{
+  "name": "a11y-review",
+  "version": "1.0.0",
+  "description": "Accessibility review for web UIs against checkable WCAG 2.2 AA rules",
+  "author": {
+    "name": "David Murray"
+  },
+  "repository": "https://github.com/thedavidmurray/claude-skills",
+  "license": "MIT"
+}

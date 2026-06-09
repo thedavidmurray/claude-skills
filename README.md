@@ -2,7 +2,7 @@
 
 # claude-skills
 
-A collection of 18 Claude Code skills for common development tasks — and a hands-on resource for learning how skills work, how to use them well, and how to write your own.
+A collection of 25 Claude Code skills for common development tasks — and a hands-on resource for learning how skills work, how to use them well, and how to extend Claude with skills, hooks, and subagents of your own.
 
 ## What is a skill?
 
@@ -77,10 +77,15 @@ Notice what the good ones share: descriptions packed with trigger phrases, concr
 
 Install [`skill-creator`](skills/skill-creator/) and ask Claude to "create a skill for X" — it scaffolds the directory, walks the frontmatter contract, and validates against a quality checklist. The fastest way to internalize what makes skills work is to write one for something you do repeatedly and iterate when it doesn't trigger.
 
-### 4. Go deeper
+### 4. Go deeper: the full extension surface
 
-- [`prompt-engineering`](skills/prompt-engineering/) — the instruction-design principles underneath every skill, hook, and agent prompt
-- [`mcp-server-scaffold`](skills/mcp-server-scaffold/) — when a skill isn't enough and you need real tools: scaffold an MCP server in TypeScript or Python
+Skills are one of four ways to extend Claude Code. The remaining three each have a skill that teaches them:
+
+- [`claude-md-author`](skills/claude-md-author/) — memory: what belongs in `CLAUDE.md` vs a skill vs a hook, and how to audit a bloated one
+- [`hook-creator`](skills/hook-creator/) — enforcement: deterministic shell commands at lifecycle events, for rules Claude must never break
+- [`subagent-creator`](skills/subagent-creator/) — delegation: specialized agents with their own context window and tool restrictions
+- [`mcp-server-scaffold`](skills/mcp-server-scaffold/) — tools: when instructions aren't enough and Claude needs new capabilities
+- [`prompt-engineering`](skills/prompt-engineering/) — the instruction-design principles underneath all of the above
 
 ## Skill catalog
 
@@ -91,6 +96,8 @@ Install [`skill-creator`](skills/skill-creator/) and ask Claude to "create a ski
 | [commit-hygiene](skills/commit-hygiene/) | Enforce commit size thresholds and conventional commit messages to reduce defect rates |
 | [test-driven-development](skills/test-driven-development/) | Enforce strict RED-GREEN-REFACTOR TDD discipline before writing production code |
 | [precommit-validation](skills/precommit-validation/) | Pre-commit security and quality validation |
+| [refactor-safely](skills/refactor-safely/) | Behavior-preserving refactoring under a test safety net, in small reversible steps |
+| [git-rescue](skills/git-rescue/) | Recover lost commits, undo bad rebases/merges, hunt regressions with bisect |
 
 ### Testing
 
@@ -112,14 +119,24 @@ Install [`skill-creator`](skills/skill-creator/) and ask Claude to "create a ski
 |-------|-------------|
 | [dev-docs](skills/dev-docs/) | Generate README, API docs, ADRs, and inline documentation |
 | [make-interfaces-feel-better](skills/make-interfaces-feel-better/) | UI polish: animations, typography, surfaces, micro-interactions |
+| [a11y-review](skills/a11y-review/) | Accessibility review for web UIs against checkable WCAG 2.2 AA rules |
+
+### Claude Extension Authoring
+
+| Skill | Description |
+|-------|-------------|
+| [skill-creator](skills/skill-creator/) | Guide for creating and structuring new Claude Code skills |
+| [claude-md-author](skills/claude-md-author/) | Write and audit CLAUDE.md memory files Claude actually follows |
+| [hook-creator](skills/hook-creator/) | Create and debug hooks that enforce rules deterministically |
+| [subagent-creator](skills/subagent-creator/) | Create custom subagents with scoped tools and prompts |
+| [mcp-server-scaffold](skills/mcp-server-scaffold/) | Scaffold production-ready MCP servers with TypeScript/Python templates |
+| [prompt-engineering](skills/prompt-engineering/) | Prompt engineering patterns for LLM agents and hooks |
 
 ### Tooling & Infrastructure
 
 | Skill | Description |
 |-------|-------------|
-| [mcp-server-scaffold](skills/mcp-server-scaffold/) | Scaffold production-ready MCP servers with TypeScript/Python templates |
-| [skill-creator](skills/skill-creator/) | Guide for creating and structuring new Claude Code skills |
-| [prompt-engineering](skills/prompt-engineering/) | Prompt engineering patterns for LLM agents and hooks |
+| [dependency-upgrade](skills/dependency-upgrade/) | Safe, ordered dependency upgrades across npm, pip, and cargo |
 | [link-ingest](skills/link-ingest/) | Ingest any URL into a knowledge base with scraping, Obsidian notes, and ChromaDB |
 | [file-organizer](skills/file-organizer/) | Organize files, find duplicates, suggest better structures |
 

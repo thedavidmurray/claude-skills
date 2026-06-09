@@ -1,0 +1,10 @@
+{
+  "name": "claude-md-author",
+  "version": "1.0.0",
+  "description": "Write and audit CLAUDE.md memory files Claude actually follows",
+  "author": {
+    "name": "David Murray"
+  },
+  "repository": "https://github.com/thedavidmurray/claude-skills",
+  "license": "MIT"
+}
