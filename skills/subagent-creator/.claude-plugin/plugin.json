@@ -1,0 +1,10 @@
+{
+  "name": "subagent-creator",
+  "version": "1.0.0",
+  "description": "Create custom Claude Code subagents with scoped tools and prompts",
+  "author": {
+    "name": "David Murray"
+  },
+  "repository": "https://github.com/thedavidmurray/claude-skills",
+  "license": "MIT"
+}

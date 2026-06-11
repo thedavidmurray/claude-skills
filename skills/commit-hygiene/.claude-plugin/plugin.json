@@ -1,0 +1,10 @@
+{
+  "name": "commit-hygiene",
+  "version": "1.0.0",
+  "description": "Enforce commit size thresholds and conventional commit messages to reduce defect rates",
+  "author": {
+    "name": "David Murray"
+  },
+  "repository": "https://github.com/thedavidmurray/claude-skills",
+  "license": "MIT"
+}

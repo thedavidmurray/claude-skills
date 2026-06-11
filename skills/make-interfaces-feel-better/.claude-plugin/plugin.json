@@ -1,0 +1,10 @@
+{
+  "name": "make-interfaces-feel-better",
+  "version": "1.0.0",
+  "description": "UI polish: animations, typography, surfaces, micro-interactions",
+  "author": {
+    "name": "David Murray"
+  },
+  "repository": "https://github.com/thedavidmurray/claude-skills",
+  "license": "MIT"
+}

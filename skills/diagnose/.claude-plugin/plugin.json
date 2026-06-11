@@ -1,0 +1,10 @@
+{
+  "name": "diagnose",
+  "version": "1.0.0",
+  "description": "Disciplined six-phase debugging loop for hard bugs and performance regressions",
+  "author": {
+    "name": "David Murray"
+  },
+  "repository": "https://github.com/thedavidmurray/claude-skills",
+  "license": "MIT"
+}

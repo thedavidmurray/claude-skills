@@ -1,0 +1,10 @@
+{
+  "name": "mcp-server-scaffold",
+  "version": "1.0.0",
+  "description": "Scaffold production-ready MCP servers with TypeScript/Python templates",
+  "author": {
+    "name": "David Murray"
+  },
+  "repository": "https://github.com/thedavidmurray/claude-skills",
+  "license": "MIT"
+}

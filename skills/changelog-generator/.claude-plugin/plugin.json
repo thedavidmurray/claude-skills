@@ -1,0 +1,10 @@
+{
+  "name": "changelog-generator",
+  "version": "1.0.0",
+  "description": "Generate release notes from git history",
+  "author": {
+    "name": "David Murray"
+  },
+  "repository": "https://github.com/thedavidmurray/claude-skills",
+  "license": "MIT"
+}

@@ -1,0 +1,10 @@
+{
+  "name": "dependency-upgrade",
+  "version": "1.0.0",
+  "description": "Safe, ordered dependency upgrades across npm, pip, and cargo",
+  "author": {
+    "name": "David Murray"
+  },
+  "repository": "https://github.com/thedavidmurray/claude-skills",
+  "license": "MIT"
+}

@@ -1,0 +1,10 @@
+{
+  "name": "file-organizer",
+  "version": "1.0.0",
+  "description": "Organize files, find duplicates, suggest better structures",
+  "author": {
+    "name": "David Murray"
+  },
+  "repository": "https://github.com/thedavidmurray/claude-skills",
+  "license": "MIT"
+}

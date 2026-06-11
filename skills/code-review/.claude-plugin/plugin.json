@@ -1,0 +1,10 @@
+{
+  "name": "code-review",
+  "version": "1.0.0",
+  "description": "Code review covering security, performance, quality, and correctness",
+  "author": {
+    "name": "David Murray"
+  },
+  "repository": "https://github.com/thedavidmurray/claude-skills",
+  "license": "MIT"
+}

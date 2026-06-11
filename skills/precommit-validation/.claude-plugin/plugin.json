@@ -1,0 +1,10 @@
+{
+  "name": "precommit-validation",
+  "version": "1.0.0",
+  "description": "Pre-commit security and quality validation",
+  "author": {
+    "name": "David Murray"
+  },
+  "repository": "https://github.com/thedavidmurray/claude-skills",
+  "license": "MIT"
+}

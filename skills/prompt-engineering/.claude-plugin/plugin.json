@@ -1,0 +1,10 @@
+{
+  "name": "prompt-engineering",
+  "version": "1.0.0",
+  "description": "Prompt engineering patterns for LLM agents and hooks",
+  "author": {
+    "name": "David Murray"
+  },
+  "repository": "https://github.com/thedavidmurray/claude-skills",
+  "license": "MIT"
+}

@@ -1,0 +1,10 @@
+{
+  "name": "article-extractor",
+  "version": "1.0.0",
+  "description": "Extract clean article content with a 4-backend fallback chain",
+  "author": {
+    "name": "David Murray"
+  },
+  "repository": "https://github.com/thedavidmurray/claude-skills",
+  "license": "MIT"
+}

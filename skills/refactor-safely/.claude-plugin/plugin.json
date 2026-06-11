@@ -1,0 +1,10 @@
+{
+  "name": "refactor-safely",
+  "version": "1.0.0",
+  "description": "Behavior-preserving refactoring under a test safety net, in small reversible steps",
+  "author": {
+    "name": "David Murray"
+  },
+  "repository": "https://github.com/thedavidmurray/claude-skills",
+  "license": "MIT"
+}

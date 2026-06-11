@@ -1,0 +1,10 @@
+{
+  "name": "image-enhancer",
+  "version": "1.0.0",
+  "description": "Batch image enhancement with ImageMagick and platform presets",
+  "author": {
+    "name": "David Murray"
+  },
+  "repository": "https://github.com/thedavidmurray/claude-skills",
+  "license": "MIT"
+}

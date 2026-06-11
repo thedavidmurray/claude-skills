@@ -1,0 +1,10 @@
+{
+  "name": "hook-creator",
+  "version": "1.0.0",
+  "description": "Create and debug Claude Code hooks that enforce rules deterministically",
+  "author": {
+    "name": "David Murray"
+  },
+  "repository": "https://github.com/thedavidmurray/claude-skills",
+  "license": "MIT"
+}
