@@ -164,13 +164,13 @@
     {
       "name": "autoreason",
       "source": "./skills/autoreason",
-      "description": "Apply structured reasoning frameworks to complex problems with decomposition, evidence, synthesis, and verification",
+      "description": "Iterative self-refinement that knows when to stop \u2014 three competing versions per iteration, blind Borda judges",
       "category": "claude-extensions"
     },
     {
       "name": "autoresearcher",
       "source": "./skills/autoresearcher",
-      "description": "Autonomous deep research with parallel evidence gathering and cited synthesis across web and local sources",
+      "description": "Autonomous AI agent-driven research workflow based on karpathy/autoresearch",
       "category": "research"
     },
     {

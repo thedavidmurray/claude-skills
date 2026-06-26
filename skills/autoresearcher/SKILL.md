@@ -1,46 +1,52 @@
 ---
 name: autoresearcher
-description: Autonomous deep research with Mixture-of-Experts routing. Spawns parallel research lanes, gathers evidence from web and local sources, synthesizes findings into cited reports. Use when the user says "autoresearch", "deep research", "investigate this topic", "map the landscape", or needs comprehensive multi-source analysis across technical, market, or academic domains.
+description: Autonomous AI agent-driven research workflow based on karpathy/autoresearch. The agent modifies code/experiments, runs them, evaluates results, logs to TSV, and iterates autonomously until stopped. Use when the user says "autoresearch this", "run overnight experiments", "autonomous research loop", or needs an AI agent to iterate on experiments without human intervention.
 category: research
 ---
 # Autoresearcher
 
-Autonomous research engine for Claude Code. Splits a topic into parallel lanes, gathers evidence, and synthesizes into a cited report.
+Autonomous research loop: modify → run → evaluate → record → iterate.
+
+## Based on
+
+karpathy/autoresearch. Clone it for reference:
+```bash
+git clone https://github.com/karpathy/autoresearch.git
+```
 
 ## When to Use
 
-- User says "autoresearch X" or "do deep research on X"
-- Need a comprehensive literature / market / technical landscape review
-- Multi-source synthesis where single-pass research misses information
-- Time-sensitive fact-finding across disparate sources
+- User asks for autonomous research or overnight experiments
+- Need an agent to iterate on training/experiments continuously
+- Goal is to maximize a metric with minimal human oversight
 
-## Process
+## Core Loop
 
-1. **Clarify the question** — restate as a research brief (scope, sources, depth).
-2. **Decompose into lanes** — 3–6 independent sub-queries that cover the topic from different angles.
-3. **Gather evidence** — run lanes in parallel using available tools: web search, URL extraction, local vault, Obsidian notes, file system.
-4. **Synthesize** — merge lane findings into one report, preserving per-source attribution.
-5. **Quality gate** — check coverage, identify gaps, run supplemental queries if needed.
-6. **Deliver** — return a markdown report with executive summary, findings by lane, sources, and open questions.
+1. **Setup** — agree on run tag, create branch, read in-scope files, verify data, initialize results.tsv.
+2. **Experiment** — modify the target file (usually `train.py`), commit, run.
+3. **Evaluate** — read results from log output or evaluation script.
+4. **Log** — append tab-separated results to `results.tsv`. DO NOT commit this file.
+5. **Iterate** — if improved, keep; if not, revert. Loop until stopped.
+
+## Rules
+
+- Only modify the designated file(s). Do not touch README, setup, or evaluation harness.
+- Respect time budgets. Each run has a fixed wall-clock limit.
+- Log every attempt, including crashes.
+- Record short descriptions for every experiment.
+- Never stop automatically — loop until human interruption, unless explicitly told to stop after N iterations.
 
 ## Output Format
 
-```markdown
-# Research: <topic>
-
-## Executive Summary
-...
-
-## Findings
-### Lane 1: <angle>
-...
-
-## Sources
-- ...
+Update `results.tsv` after each run:
 ```
+commit	metric	peak_memory	status	description
+```
+
+Post periodic progress summaries to the user channel.
 
 ## Anti-patterns
 
-- Don't run one big query and hope it covers everything
-- Don't drop source attribution when synthesizing
-- Don't stop at the first page of results
+- Don't modify evaluation harness or add dependencies
+- Don't ask "should I continue?" during the loop
+- Don't stop after a few tries — the value is in volume

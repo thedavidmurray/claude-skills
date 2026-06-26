@@ -1,10 +1,8 @@
 {
   "name": "autoreason",
   "version": "1.0.0",
-  "description": "Apply structured reasoning frameworks to complex problems with decomposition, evidence, synthesis, and verification",
-  "author": {
-    "name": "David Murray"
-  },
+  "description": "Iterative self-refinement that knows when to stop — three competing versions per iteration, blind Borda judges",
+  "author": { "name": "David Murray" },
   "repository": "https://github.com/thedavidmurray/claude-skills",
   "license": "MIT"
 }

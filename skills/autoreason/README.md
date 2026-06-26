@@ -1,6 +1,6 @@
 # Autoreason
 
-Structured reasoning skill for Claude Code. Apply disciplined decomposition, evidence gathering, and verification to complex decisions.
+Iterative self-refinement skill for Claude Code based on NousResearch/autoreason.
 
 ## Install
 
@@ -8,22 +8,10 @@ Structured reasoning skill for Claude Code. Apply disciplined decomposition, evi
 /plugin install autoreason@claude-skills
 ```
 
-Or copy into a project:
-
-```bash
-cp -r skills/autoreason .claude/skills/
-```
-
 ## Usage
 
-Ask Claude to "run autoreason on this decision" or "deep reasoning about X".
+"Run autoreason on this", "refine with Borda judges", "self-improve until convergence".
 
-## What it produces
+## Method
 
-A markdown report with:
-
-- Scope statement
-- 3–7 decomposed sub-problems
-- Evidence and analysis per sub-problem
-- Synthesized recommendation with confidence
-- Falsification tests
+Each iteration produces 3 versions: unchanged incumbent (A), adversarial revision (B), synthesis (AB). Fresh judges score via blind Borda count. "Do nothing" is always an option. Stops when A wins 2 consecutive times.

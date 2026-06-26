@@ -1,6 +1,6 @@
 # Autoresearcher
 
-Autonomous deep research skill for Claude Code. Parallel research lanes, multi-source evidence gathering, and cited synthesis.
+Autonomous AI agent-driven research workflow based on karpathy/autoresearch.
 
 ## Install
 
@@ -10,13 +10,12 @@ Autonomous deep research skill for Claude Code. Parallel research lanes, multi-s
 
 ## Usage
 
-Ask Claude to "autoresearch this topic" or "map the landscape for X".
+"Run autoresearch on this repo", "autonomous experiment loop", "iterate overnight".
 
-## What it produces
+## What it does
 
-A markdown research report with:
-
-- Executive summary
-- Findings organized by research lane
-- Full source attribution
-- Open questions for follow-up
+- Modifies target file (e.g. `train.py`)
+- Runs fixed-time experiments
+- Evaluates and logs to TSV
+- Keeps improvements, reverts failures
+- Loops until human interruption
