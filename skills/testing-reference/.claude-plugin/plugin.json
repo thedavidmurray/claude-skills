@@ -1,0 +1,8 @@
+{
+  "name": "testing-reference",
+  "version": "1.0.0",
+  "description": "Testing conventions, quality gates, coverage requirements, and naming patterns",
+  "author": { "name": "David Murray" },
+  "repository": "https://github.com/thedavidmurray/claude-skills",
+  "license": "MIT"
+}

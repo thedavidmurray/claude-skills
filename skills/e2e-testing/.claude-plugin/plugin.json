@@ -1,0 +1,8 @@
+{
+  "name": "e2e-testing",
+  "version": "1.0.0",
+  "description": "Playwright end-to-end testing patterns with Page Object Model and CI integration",
+  "author": { "name": "David Murray" },
+  "repository": "https://github.com/thedavidmurray/claude-skills",
+  "license": "MIT"
+}

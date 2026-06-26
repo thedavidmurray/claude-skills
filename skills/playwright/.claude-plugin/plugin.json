@@ -1,0 +1,8 @@
+{
+  "name": "playwright",
+  "version": "1.0.0",
+  "description": "Browser automation using Playwright for navigation, scraping, testing, and web automation",
+  "author": { "name": "David Murray" },
+  "repository": "https://github.com/thedavidmurray/claude-skills",
+  "license": "MIT"
+}

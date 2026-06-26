@@ -1,0 +1,8 @@
+{
+  "name": "browser-automation-patterns",
+  "version": "1.0.0",
+  "description": "Reliable browser automation patterns for web UI tasks",
+  "author": { "name": "David Murray" },
+  "repository": "https://github.com/thedavidmurray/claude-skills",
+  "license": "MIT"
+}

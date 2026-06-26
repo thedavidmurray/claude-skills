@@ -1,0 +1,8 @@
+{
+  "name": "nextjs",
+  "version": "1.0.0",
+  "description": "Next.js 14+ app router, server components, API routes, and deployment patterns",
+  "author": { "name": "David Murray" },
+  "repository": "https://github.com/thedavidmurray/claude-skills",
+  "license": "MIT"
+}

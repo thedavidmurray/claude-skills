@@ -1,0 +1,8 @@
+{
+  "name": "tdd-workflow",
+  "version": "1.0.0",
+  "description": "Enforce test-driven development with RED-GREEN-REFACTOR discipline",
+  "author": { "name": "David Murray" },
+  "repository": "https://github.com/thedavidmurray/claude-skills",
+  "license": "MIT"
+}

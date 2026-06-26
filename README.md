@@ -2,7 +2,7 @@
 
 # claude-skills
 
-A collection of 25 Claude Code skills for common development tasks — and a hands-on resource for learning how skills work, how to use them well, and how to extend Claude with skills, hooks, and subagents of your own.
+A collection of 41 Claude Code skills for development tasks — and a hands-on resource for learning how skills work, how to use them well, and how to extend Claude with skills, hooks, and subagents of your own.
 
 ## What is a skill?
 
@@ -127,11 +127,11 @@ Skills are one of four ways to extend Claude Code. The remaining three each have
 |-------|-------------|
 | [skill-creator](skills/skill-creator/) | Guide for creating and structuring new Claude Code skills |
 | [claude-md-author](skills/claude-md-author/) | Write and audit CLAUDE.md memory files Claude actually follows |
-|| [hook-creator](skills/hook-creator/) | Create and debug hooks that enforce rules deterministically |
-|| [subagent-creator](skills/subagent-creator/) | Create custom subagents with scoped tools and prompts |
-|| [mcp-server-scaffold](skills/mcp-server-scaffold/) | Scaffold production-ready MCP servers with TypeScript/Python templates |
-|| [prompt-engineering](skills/prompt-engineering/) | Prompt engineering patterns for LLM agents and hooks |
-|| [autoreason](skills/autoreason/) | Apply structured reasoning frameworks to complex problems |
+| [hook-creator](skills/hook-creator/) | Create and debug hooks that enforce rules deterministically |
+| [subagent-creator](skills/subagent-creator/) | Create custom subagents with scoped tools and prompts |
+| [mcp-server-scaffold](skills/mcp-server-scaffold/) | Scaffold production-ready MCP servers with TypeScript/Python templates |
+| [prompt-engineering](skills/prompt-engineering/) | Prompt engineering patterns for LLM agents and hooks |
+| [autoreason](skills/autoreason/) | Apply structured reasoning frameworks to complex problems |
 
 ### Research
 
@@ -140,6 +140,30 @@ Skills are one of four ways to extend Claude Code. The remaining three each have
 | [autoresearcher](skills/autoresearcher/) | Autonomous deep research with parallel evidence gathering and cited synthesis |
 | [researcher](skills/researcher/) | Deep investigation and evidence gathering for academic, technical, and market research |
 
+### Planning
+
+| Skill | Description |
+|-------|-------------|
+| [writing-plans](skills/writing-plans/) | Create comprehensive implementation plans from specs or requirements |
+
+### Testing
+
+| Skill | Description |
+|-------|-------------|
+| [verification-loop](skills/verification-loop/) | Comprehensive verification system for software development sessions |
+| [proof-of-completion](skills/proof-of-completion/) | Structured proof-of-completion framework for verifiable task delivery |
+| [tdd-workflow](skills/tdd-workflow/) | Enforce test-driven development with RED-GREEN-REFACTOR discipline |
+| [testing-reference](skills/testing-reference/) | Testing conventions, quality gates, coverage requirements, and naming patterns |
+| [e2e-testing](skills/e2e-testing/) | Playwright end-to-end testing patterns with Page Object Model and CI integration |
+
+### Software Development
+
+| Skill | Description |
+|-------|-------------|
+| [systematic-debugging](skills/systematic-debugging/) | Systematic debugging workflow for software defects |
+| [frontend-patterns](skills/frontend-patterns/) | Frontend development patterns for React, Next.js, state management, and performance |
+| [nextjs](skills/nextjs/) | Next.js 14+ app router, server components, API routes, and deployment patterns |
+
 ### Tooling & Infrastructure
 
 | Skill | Description |
@@ -147,6 +171,9 @@ Skills are one of four ways to extend Claude Code. The remaining three each have
 | [dependency-upgrade](skills/dependency-upgrade/) | Safe, ordered dependency upgrades across npm, pip, and cargo |
 | [link-ingest](skills/link-ingest/) | Ingest any URL into a knowledge base with scraping, Obsidian notes, and ChromaDB |
 | [file-organizer](skills/file-organizer/) | Organize files, find duplicates, suggest better structures |
+| [playwright](skills/playwright/) | Browser automation using Playwright for navigation, scraping, testing, and web automation |
+| [browser-automation-patterns](skills/browser-automation-patterns/) | Reliable browser automation patterns for web UI tasks |
+| [web-dev-ops](skills/web-dev-ops/) | Operate web projects end-to-end: audit, deploy, verify live URLs |
 
 ### Content & Analysis
 

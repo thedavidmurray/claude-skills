@@ -8,7 +8,7 @@
     {
       "name": "all-skills",
       "source": "./",
-      "description": "The full collection — all 28 skills in one install",
+      "description": "All 41 skills from thedavidmurray/claude-skills: engineering discipline, testing, code quality, documentation, tooling, content analysis, research, planning, and frontend engineering.",
       "category": "bundle"
     },
     {
@@ -178,6 +178,84 @@
       "source": "./skills/researcher",
       "description": "Deep investigation and evidence gathering for academic, technical, and market research with cited summaries",
       "category": "research"
+    },
+    {
+      "name": "goal-loop",
+      "source": "./skills/goal-loop",
+      "description": "Self-evaluating goal loop for autonomous task execution with bounded retry",
+      "category": "claude-extensions"
+    },
+    {
+      "name": "writing-plans",
+      "source": "./skills/writing-plans",
+      "description": "Create comprehensive implementation plans from specs or requirements",
+      "category": "planning"
+    },
+    {
+      "name": "verification-loop",
+      "source": "./skills/verification-loop",
+      "description": "Comprehensive verification system for software development sessions",
+      "category": "testing"
+    },
+    {
+      "name": "proof-of-completion",
+      "source": "./skills/proof-of-completion",
+      "description": "Structured proof-of-completion framework for verifiable task delivery",
+      "category": "testing"
+    },
+    {
+      "name": "systematic-debugging",
+      "source": "./skills/systematic-debugging",
+      "description": "Systematic debugging workflow for software defects with reproduce-isolate-fix-verify discipline",
+      "category": "software-development"
+    },
+    {
+      "name": "tdd-workflow",
+      "source": "./skills/tdd-workflow",
+      "description": "Enforce test-driven development with RED-GREEN-REFACTOR discipline",
+      "category": "testing"
+    },
+    {
+      "name": "testing-reference",
+      "source": "./skills/testing-reference",
+      "description": "Testing conventions, quality gates, coverage requirements, and naming patterns",
+      "category": "testing"
+    },
+    {
+      "name": "e2e-testing",
+      "source": "./skills/e2e-testing",
+      "description": "Playwright end-to-end testing patterns with Page Object Model and CI integration",
+      "category": "testing"
+    },
+    {
+      "name": "playwright",
+      "source": "./skills/playwright",
+      "description": "Browser automation using Playwright for navigation, scraping, testing, and web automation",
+      "category": "tooling"
+    },
+    {
+      "name": "browser-automation-patterns",
+      "source": "./skills/browser-automation-patterns",
+      "description": "Reliable browser automation patterns for web UI tasks",
+      "category": "tooling"
+    },
+    {
+      "name": "web-dev-ops",
+      "source": "./skills/web-dev-ops",
+      "description": "Operate web projects end-to-end: audit, deploy, verify live URLs",
+      "category": "tooling"
+    },
+    {
+      "name": "frontend-patterns",
+      "source": "./skills/frontend-patterns",
+      "description": "Frontend development patterns for React, Next.js, state management, and performance",
+      "category": "software-development"
+    },
+    {
+      "name": "nextjs",
+      "source": "./skills/nextjs",
+      "description": "Next.js 14+ app router, server components, API routes, and deployment patterns",
+      "category": "software-development"
     }
   ]
 }

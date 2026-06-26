@@ -1,0 +1,8 @@
+{
+  "name": "frontend-patterns",
+  "version": "1.0.0",
+  "description": "Frontend development patterns for React, Next.js, state management, and performance",
+  "author": { "name": "David Murray" },
+  "repository": "https://github.com/thedavidmurray/claude-skills",
+  "license": "MIT"
+}

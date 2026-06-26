@@ -1,0 +1,8 @@
+{
+  "name": "web-dev-ops",
+  "version": "1.0.0",
+  "description": "Operate web projects end-to-end: audit, deploy, verify live URLs",
+  "author": { "name": "David Murray" },
+  "repository": "https://github.com/thedavidmurray/claude-skills",
+  "license": "MIT"
+}

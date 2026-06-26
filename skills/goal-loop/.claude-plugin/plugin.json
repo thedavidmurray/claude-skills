@@ -1,0 +1,8 @@
+{
+  "name": "goal-loop",
+  "version": "1.0.0",
+  "description": "Self-evaluating goal loop for autonomous task execution with bounded retry",
+  "author": { "name": "David Murray" },
+  "repository": "https://github.com/thedavidmurray/claude-skills",
+  "license": "MIT"
+}
