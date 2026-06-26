@@ -8,7 +8,7 @@
     {
       "name": "all-skills",
       "source": "./",
-      "description": "The full collection \u2014 all 25 skills in one install",
+      "description": "The full collection — all 28 skills in one install",
       "category": "bundle"
     },
     {
@@ -160,6 +160,24 @@
       "source": "./skills/dependency-upgrade",
       "description": "Safe, ordered dependency upgrades across npm, pip, and cargo",
       "category": "tooling"
+    },
+    {
+      "name": "autoreason",
+      "source": "./skills/autoreason",
+      "description": "Apply structured reasoning frameworks to complex problems with decomposition, evidence, synthesis, and verification",
+      "category": "claude-extensions"
+    },
+    {
+      "name": "autoresearcher",
+      "source": "./skills/autoresearcher",
+      "description": "Autonomous deep research with parallel evidence gathering and cited synthesis across web and local sources",
+      "category": "research"
+    },
+    {
+      "name": "researcher",
+      "source": "./skills/researcher",
+      "description": "Deep investigation and evidence gathering for academic, technical, and market research with cited summaries",
+      "category": "research"
     }
   ]
 }

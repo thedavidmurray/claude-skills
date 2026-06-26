@@ -127,10 +127,18 @@ Skills are one of four ways to extend Claude Code. The remaining three each have
 |-------|-------------|
 | [skill-creator](skills/skill-creator/) | Guide for creating and structuring new Claude Code skills |
 | [claude-md-author](skills/claude-md-author/) | Write and audit CLAUDE.md memory files Claude actually follows |
-| [hook-creator](skills/hook-creator/) | Create and debug hooks that enforce rules deterministically |
-| [subagent-creator](skills/subagent-creator/) | Create custom subagents with scoped tools and prompts |
-| [mcp-server-scaffold](skills/mcp-server-scaffold/) | Scaffold production-ready MCP servers with TypeScript/Python templates |
-| [prompt-engineering](skills/prompt-engineering/) | Prompt engineering patterns for LLM agents and hooks |
+|| [hook-creator](skills/hook-creator/) | Create and debug hooks that enforce rules deterministically |
+|| [subagent-creator](skills/subagent-creator/) | Create custom subagents with scoped tools and prompts |
+|| [mcp-server-scaffold](skills/mcp-server-scaffold/) | Scaffold production-ready MCP servers with TypeScript/Python templates |
+|| [prompt-engineering](skills/prompt-engineering/) | Prompt engineering patterns for LLM agents and hooks |
+|| [autoreason](skills/autoreason/) | Apply structured reasoning frameworks to complex problems |
+
+### Research
+
+| Skill | Description |
+|-------|-------------|
+| [autoresearcher](skills/autoresearcher/) | Autonomous deep research with parallel evidence gathering and cited synthesis |
+| [researcher](skills/researcher/) | Deep investigation and evidence gathering for academic, technical, and market research |
 
 ### Tooling & Infrastructure
 
